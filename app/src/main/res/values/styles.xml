@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Defines the theme for the preferences screen -->
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+
+    <style name="UserAttentionText" parent="AppTheme">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:fontFamily">sans-serif-light"</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="FilmTitle" parent="@style/Base.TextAppearance.AppCompat.Display1">
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ReviewAuthor" parent="@style/Base.TextAppearance.AppCompat.Title">
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="ReviewContent" parent="@style/Base.TextAppearance.AppCompat.Body1">
+        <item name="android:gravity">left</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+</resources>

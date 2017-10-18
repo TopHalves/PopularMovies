@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryLight"
+    android:layout_margin="20dp"
+    >
+
+    <TextView
+        android:id="@+id/review_author_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center_horizontal"
+        style="@style/ReviewAuthor"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Review Author"
+        app:layout_constraintRight_toRightOf="parent"/>
+    <TextView
+        android:id="@+id/review_content_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center_horizontal"
+        app:layout_constraintLeft_toLeftOf="@+id/review_author_tv"
+        app:layout_constraintRight_toRightOf="@+id/review_author_tv"
+        tools:text="Review Content"
+        app:layout_constraintTop_toBottomOf="@+id/review_author_tv"
+        style="@style/ReviewContent"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp" />
+</android.support.constraint.ConstraintLayout>

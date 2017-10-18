@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="movie_list_columns">2</integer>
+    <integer name="detail_list_columns">1</integer>
+    <dimen name="movie_detail_title_height">130dp</dimen>
+</resources>

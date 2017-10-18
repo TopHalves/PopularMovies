@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">PopularMovies</string>
+
+    <!-- String for network error condition-->
+    <string name="error_network">Unable to update movies right now. Try again later.</string>
+
+    <!-- String for when the user has no favorites-->
+    <string name="error_no_favorites">
+        You have no favorites to display yet! Favorite popular and top rated movies will appear here.
+    </string>
+
+    <!-- Menu strings -->
+    <string name="menu_settings_label">Settings</string>
+
+    <!-- Preference strings -->
+    <string name="pref_sort_label">Sort Order</string>
+    <string name="pref_sort_key">sort_order</string>
+
+    <string name="pref_sort_label_popular">Popular</string>
+    <string name="pref_sort_label_top_rated">Top Rated</string>
+    <string name="pref_sort_label_favorite">Favorite</string>
+
+    <string name="pref_sort_popular" translatable="false">popular</string>
+    <string name="pref_sort_top_rated" translatable="false">top_rated</string>
+    <string name="pref_sort_favorite" translatable="false">favorite</string>
+
+    <string name="pref_sort_default">@string/pref_sort_popular</string>
+
+    <!-- Accessibility descriptions -->
+    <string name="detail_poster_iv_description">Poster image of the film</string>
+
+    <!-- Format Related Strings -->
+
+    <!-- Format for the average user vote -->
+    <string name="average_vote_format">%1.0f/10</string>
+
+    <!-- Format of the release date used by the movie db -->
+    <string name="format_date_database">yyyy-MM-dd</string>
+
+    <!-- Name of the content authority of this app -->
+    <string name="content_authority">com.example.android.popularmovies</string>
+
+    <string name="runtime_minutes">mins</string>
+
+    <string name="detail_text_section_title_trailers">Trailers</string>
+
+    <string name="review_prefix">Review by</string>
+
+    <string name="trailer_prefix">Trailer on</string>
+
+
+</resources>
